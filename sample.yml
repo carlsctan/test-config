@@ -1,2 +1,8 @@
+name: sample
+profiles:
+  dev:
 host: sample
 port: 8080
+  prod:
+host: sampleProd
+port: 80
