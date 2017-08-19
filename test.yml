@@ -1,11 +1,10 @@
 name: test
-spring:
-  profiles: dev
+
+profiles: dev
 host: test
 port: 8081
 
 ---
-spring:
-  profiles: prod
+profiles: prod
 host: testProd
 port: 80
