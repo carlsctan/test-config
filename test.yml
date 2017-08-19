@@ -1,8 +1,10 @@
 name: test
-profiles:
-  dev:
+
+profiles: dev
 host: test
 port: 8081
-  prod:
+
+---
+profiles: prod
 host: testProd
 port: 80
